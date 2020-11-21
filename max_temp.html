@@ -26,7 +26,7 @@
 
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Quick Find</div>
+      <div class="sidebar-heading">Visualizations</div>
       <div class="list-group-flush">
         <a href="max_temp.html" title="Maxium Temperature Analysis" class="list-group-item list-group-item-action bg-light"><img src="C:\Users\Bill\Documents\Rutger's Data Science Bootcamp_2020\Course Work\Web Design Homework 9\Web-Design-Challenge\assets\images\fig1.png" height="50" width="100"/></a>
         <a href="humidity.html" title="Humidity Analysis" class="list-group-item list-group-item-action bg-light"><img src="C:\Users\Bill\Documents\Rutger's Data Science Bootcamp_2020\Course Work\Web Design Homework 9\Web-Design-Challenge\assets\images\fig2.png" height="50" width="100"/></a>
@@ -80,8 +80,7 @@
           <section>
             <img src="C:\Users\Bill\Documents\Rutger's Data Science Bootcamp_2020\Course Work\Web Design Homework 9\Web-Design-Challenge\assets\images\fig1.png" alt="max_temp" height="350" width="450" style="float:left">
           </section>
-            <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-            <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+            <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, if the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
         </div>
       </div>
     </div>
@@ -91,9 +90,6 @@
   <!-- /#wrapper -->
 
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- Javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
@@ -102,13 +98,6 @@
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
   </script>
 
-    <!-- Menu Toggle Script -->
-    <script>
-      $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-      });
-    </script>
 
 </body>
 
